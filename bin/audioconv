@@ -3,10 +3,10 @@
 ################################################################################
 # Convert audiofiles from one format to another (ogg, mp3 or wav)              #
 #                                                                              #
-# Copyright (C) 2006 Michael Hooreman <mhooreman_AT_skynet_DOT_be>             #
+# Copyright (C) 2006 Michael Hooreman <michael_AT_mijoweb_DOT_net>             #
 ################################################################################
 
-#$Id: audioconv,v 1.3 2006-08-18 12:50:12 mhoo Exp $
+#$Id: audioconv,v 1.4 2006-10-28 10:24:21 michael Exp $
 
 =head1 NAME
 
@@ -197,7 +197,7 @@ sub showCopyrights()
 {
 	print "audioconv $VERSION - Conversion beteen misc audio file formats$/";
 	print $/;
-	print "Copyright (C) 2006 Michael Hooreman <mhooreman_AT_skynet_DOT_be>$/";
+	print "Copyright (C) 2006 Michael Hooreman <michael_AT_mijoweb_DOT_net>$/";
 	print "Licensed under the terms of the GNU General Public Licence$/";
 	print $/;
 }
@@ -209,6 +209,10 @@ runConversions();
 __END__
 
 #$Log: audioconv,v $
+#Revision 1.4  2006-10-28 10:24:21  michael
+#Updated my email address.
+#Changed to version 0.08
+#
 #Revision 1.3  2006-08-18 12:50:12  mhoo
 #module is now Audio::ConvTool
 #switched to version 0.06

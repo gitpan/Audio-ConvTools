@@ -1,10 +1,10 @@
 ################################################################################
 # Convert audiofiles from one format to another (ogg, mp3 or wav)              #
 #                                                                              #
-# Copyright (C) 2006 Michael Hooreman <mhooreman_AT_skynet_DOT_be>             #
+# Copyright (C) 2006 Michael Hooreman <michael_AT_mijoweb_DOT_net>             #
 ################################################################################
 
-#$Id: ConvTools.pm,v 1.2 2006-10-28 10:12:45 michael Exp $
+#$Id: ConvTools.pm,v 1.3 2006-10-28 10:24:23 michael Exp $
 
 =head1 NAME
 
@@ -288,7 +288,7 @@ use warnings;
 require Exporter;
 
 our @ISA = qw/Exporter/;
-our $VERSION = "0.07";
+our $VERSION = "0.08";
 our @EXPORT = qw/
 	mp32ogg
 	mp32wav
@@ -485,6 +485,10 @@ sub wav2mp3($;$)
 __END__
 
 #$Log: ConvTools.pm,v $
+#Revision 1.3  2006-10-28 10:24:23  michael
+#Updated my email address.
+#Changed to version 0.08
+#
 #Revision 1.2  2006-10-28 10:12:45  michael
 #Require File::Temp version 0.17
 #New version 0.7
