@@ -6,7 +6,7 @@
 # Copyright (C) 2006 Michael Hooreman <mhooreman_AT_skynet_DOT_be>             #
 ################################################################################
 
-#$Id: audiocdmaker,v 1.3 2006/08/18 12:50:12 mhoo Exp $
+#$Id: audiocdmaker,v 1.3 2006-08-18 12:50:12 mhoo Exp $
 
 =head1 NAME
 
@@ -289,7 +289,7 @@ exit(100) unless prepareAndBurn();
 __END__
 
 #$Log: audiocdmaker,v $
-#Revision 1.3  2006/08/18 12:50:12  mhoo
+#Revision 1.3  2006-08-18 12:50:12  mhoo
 #module is now Audio::ConvTool
 #switched to version 0.06
 #

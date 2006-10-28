@@ -13,7 +13,7 @@ WriteMakefile(
 	PREREQ_PM => {
 		'Test::More'         => 0,
 		'File::NCopy'        => 0.32,
-		'File::Temp'         => 0.16,
+		'File::Temp'         => 0.17,
 		'Getopt::Long'       => 0,
 		'Pod::Usage'         => 0,
 		'String::ShellQuote' => 1.03,

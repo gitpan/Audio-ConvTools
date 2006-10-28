@@ -4,7 +4,7 @@
 # Copyright (C) 2006 Michael Hooreman <mhooreman_AT_skynet_DOT_be>             #
 ################################################################################
 
-#$Id: ConvTools.pm,v 1.1 2006/08/18 12:50:12 mhoo Exp $
+#$Id: ConvTools.pm,v 1.2 2006-10-28 10:12:45 michael Exp $
 
 =head1 NAME
 
@@ -288,7 +288,7 @@ use warnings;
 require Exporter;
 
 our @ISA = qw/Exporter/;
-our $VERSION = "0.06";
+our $VERSION = "0.07";
 our @EXPORT = qw/
 	mp32ogg
 	mp32wav
@@ -485,6 +485,13 @@ sub wav2mp3($;$)
 __END__
 
 #$Log: ConvTools.pm,v $
+#Revision 1.2  2006-10-28 10:12:45  michael
+#Require File::Temp version 0.17
+#New version 0.7
+#
+#Revision 1.1  2006-10-28 10:03:45  michael
+#Added loss ConvTools.pm to the repos.
+#
 #Revision 1.1  2006/08/18 12:50:12  mhoo
 #module is now Audio::ConvTool
 #switched to version 0.06
